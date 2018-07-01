@@ -1,0 +1,11 @@
+{
+  "name": "github_inprogress_sunrise_sunset",
+  "version": "1.0.0",
+  "description": "This is an ARTIK cloud services sample that creates a scheduled sunset/sunrise rule",
+  "main": "create_sunset_rule.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "Apache-2.0"
+}

@@ -1,6 +1,6 @@
-# Sample creating a sunset/sunrise rule
+# Sample creating a sunset/sunrise Rule
 
-This is an ARTIK cloud services sample that creates a scheduled sunset/sunrise rule
+This is an ARTIK cloud services sample that creates a scheduled sunset/sunrise Rule.
 
 1. Node and npm
 
@@ -20,14 +20,14 @@ v5.8.1
 
 ### Setup / Installation
 
-1. Create a device type (or use existing one) which as defined 1 or more actions in the manifest.  In this sample we'll use the "setOn" action.
-2. Add a device (of above device type) into your account. Note down the "device ID" from the [Devices dashboard](https://my.artik.cloud/devices).
+1. Create a device type (or use an existing one) which has defined 1 or more Actions in its Manifest. In this sample we'll use the `setOn` action.
+2. Connect a device (of above device type) to your account. Note the "device ID" from the [Devices dashboard](https://my.artik.cloud/devices).
 3. [Create an application](https://developer.artik.cloud/documentation/user-management/authentication.html) (or use an existing one). Be sure your application has set "Read and Write" permissions on your device type from Step 1.   
 4. Login to your newly created application and note the "user token".
 
 ### **Code setup**
 
-1. Open the file `create-sunset-rule.js` and fill in the information:
+1. Open the file `create-sunset-rule.js` and fill in the information you retrieved earlier:
 
 ```javascript
 var your_user_id = 'your_user_id';
@@ -35,7 +35,7 @@ var your_user_token = 'your_user_token';
 var your_device_id = 'your_device_id';
 ```
 
-2. Continue to examine the rest of the file.   For convenience we cover a few sections here:
+2. Continue to examine the rest of the file. For convenience we cover a few sections here:
 
 ```javascript
 // Here we give the rule a name and description, 
@@ -122,7 +122,7 @@ Here is the successful response data:
 }
 ```
 
-The rule is now active and will trigger the action specified at sunset.
+The Rule is now active and will trigger the specified Action at sunset for the GPS coordinates specified.
 
 ### 2. View this Rule in your account   
 
